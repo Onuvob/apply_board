@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+ /* *****navbar***** */
+.bg-color.scrolled{
+    background-color: #ff7e6d;
+}
+.header-area .main-menu .navbar .navbar-brand{
+    color: #007bff;
+    font-size: 30px;
+    padding-left: 130px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-bottom: 0px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+   padding: 1rem;
+   color: white;
+   padding-right: 50px;
+   padding-left: 10px;
+   padding-bottom: 0px;
+  
+   font-weight: bold;
+   margin: 0 30px 10px;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: #007bff;
+}
+.navbar .navbar-nav .nav-item .nav-log{
+    color: #ff1b68;
+    background-color: white;
+    text-align: center;
+    padding: 5px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.navbar .navbar-nav .log a:hover{
+    color:white;
+    background: #007bff;
+}
+
+/* END NAVIGATION */
+
+
+/* FOOTER */
+.page-footer{
+    background: #ffabcdfa;
+    margin-top: 30px;
+}
+.title{
+    margin: 50px 0 20px 0;
+    font-weight: bold;
+    color: #F75842;
+    font-size: 18px;
+}
+.title1{
+    margin: 50px 0 20px 0;
+    font-weight: bold;
+    color: #F75842;
+    font-size: 18px;
+    padding-left: 150px;
+}
+.footer-ul{
+    list-style: none;
+    color: #F75842;
+}
+.footer-ul li a{
+    color: #F75842;
+    text-decoration: none;
+}
+.footer-copy{
+    text-align: center;
+    padding: 5px ;
+}
+  /* END FOOTER */

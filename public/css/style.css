@@ -1,0 +1,1292 @@
+
+/* Main */
+
+.site-main .main-banner .main-text{
+   padding: 250px 0 0 120px;
+}
+.site-main .main-banner .main-para{
+  
+    padding: 0 200px 0 120px;
+}
+.banner-image img{
+    width: 100%;
+    margin: 0;
+}
+.main-button .btn{
+    padding: 5px 15px;
+    background: #FB3B87;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+    margin: 10px 0 0 120px;
+    font-weight: bold;
+}
+.main-button .btn:hover{
+    background: red;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Testimonials */
+.testimonials{
+    margin: 0 50px 10px 50px;
+    background-image: url(img/shape1.png);
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+.col-md-4{
+    margin: 40px auto;
+}
+
+.profile{
+    padding: 30px 10px 10px;
+    background-color: #fffefe;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.profile img{
+    position: relative;
+    height: 100px;
+    width: 100px;    
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #f31268;
+    font-weight: bold;
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #f31268;
+}
+ .btn{
+    padding: 5px 15px;
+    background: #ff075a;
+    border: 3px solid #fa0a5a;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.main-button2 .btn:hover{
+    background: red;
+    color: #333;
+    font-weight: bold;
+}
+.profile:hover{
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/* Application */
+.application-img img{
+   width: 100%;
+}
+/*.application{
+    background: url(img/shape2.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 200px;
+    
+ } */
+.application-title{
+    color: white;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.application-pera{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+/* Applicaiton Ends */
+/* Students Dream */
+.dream-application{
+   background: url(img/shape3.png);
+   background-repeat: no-repeat;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   padding-left: 150px;
+   padding-right: 150px;   
+}
+.dream-main-button .btn{
+    padding: 5px 15px;
+    background: #ff075a;
+    border: 3px solid #fa0a5a;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    margin-left: 50px;
+}
+.dream-main-button .btn:hover{
+    background: red;
+    color: #333;
+    font-weight: bold;
+}
+.dream-title-body{
+    color: #F75842;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.sub-title{
+    color: #FA136E;
+    font-weight: bold;
+}
+/* Student Dream Ends */
+/* Partner school */
+.partner-application{
+    background: url(img/shape4.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;   
+ }
+ .partner-main-button .btn{
+     padding: 5px 15px;
+     background: #ff075a;
+     border: 3px solid #fa0a5a;
+     
+     border-radius: 10px;
+     color: white;
+     font-weight: bold;
+     margin-top: 20px;
+     margin-bottom: 45px;
+     margin-left: 100px;
+ }
+ .partner-main-button .btn:hover{
+     background: red;
+     color: #333;
+     font-weight: bold;
+ }
+ .partner-title-body{
+    color: #F75842;
+    font-weight: bold;
+    padding-top: 10px;
+}
+/* partner school Ends */
+
+
+/* recruitement partner */
+.recruitment-application{
+    background: url(img/shape3.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;   
+ }
+.title-body{
+    color: #F75842;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+.sub-title{
+    color: #FA136E;
+    font-weight: bold;
+}
+.recruitment-main-button .btn{
+    padding: 5px 15px;
+    background: #ff075a;
+    border: 3px solid #fa0a5a;  
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    margin-left: 50px;
+}
+
+/* recruitement partner end*/
+/* Brand Area */
+.brand-area{
+    background: #FEEBEC;
+}
+.brand-area .brand-title{
+    text-align: center;
+    color: #FB3B87;
+    padding-top: 50px;
+}
+.brand-area .brand-para{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #040404;
+}
+
+/* End of Brand Area */
+/* Scholarships Awarded */
+.scholar-title{
+    color: #FB3B87;
+    font-weight: bold;
+    margin: 20px 250px;
+    padding-top: 50px;
+
+}
+.scholar-para{
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 20px;
+    width: 500px; 
+    color: #FB3B87;  
+}
+
+/* End of Scholarships Awarded */
+
+/* Get started */
+.get-application{
+    background: url(img/image6.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 600px;  
+ }
+
+/* Get Started end*/
+
+/* ********Our Story page****************  */
+
+
+/* story main start */
+.storyCareer{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.story-title{
+  color: white;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.story-pera{
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 900px;
+
+}
+
+.ourstory-back{
+  width: 100%;
+  height: 600px; 
+  background-image: url(img/story/Repeat\ Grid\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center, top right;
+}
+/* story main end*/
+
+/* Our story texts */
+
+.ourStroyTitle{
+  text-align: center;
+  color: #f31268;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.fullStory .ourStoryText1{
+  text-align: left;
+  width: 1000px;
+  margin: 0px 150px;
+  color: #040404;
+}
+.fullStory .ourStoryImg{
+  margin: 20px 150px;
+  
+}
+/* Our story texts end */
+.storyCareerText{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 400px;
+
+}
+/* Employee World Wide */
+.storyMap{
+  padding-left: 300px;
+  padding-right: 300px;
+  width: 100%;
+}
+/* Employee World Wide */
+
+
+/* what do we do? */
+.What{
+  width: 100%;
+}
+.storyprofile{
+  padding: 30px 10px 10px;
+  background-color: #fffefe;
+  width: 300px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.storyprofile:hover{
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* what do we do? end */
+/* Our values start */
+
+.ourValueparts{
+  color: #f31268;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #fffefe;
+  width: 300px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.ourValueparts:hover{
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* Our values  end */
+/* fast fact starts */
+.fastfact{
+  color: #f31268;
+  font-weight: bold;
+  text-align: center; 
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.
+/* fast fact  end */
+/* practice start*/
+
+.practice-back{
+  width: 100%;
+  height: 600px; 
+  background-image: url(img/practice/Repeat\ Grid\ 7.png);
+  background-repeat: no-repeat;
+  background-position: center, top right;
+}
+
+/* practice end */
+/* ***************increase your persistance start *************/
+.becomepartnerfull{
+  padding-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.presence-back{
+  width: 100%;
+  height: 600px; 
+  background-image: url(img/increaseYourGlobalPersistance/Repeat\ Grid\ 8.png);
+  background-repeat: no-repeat;
+  background-position: center, top right;
+}
+.becomepartnerschool-back{
+  background-image: url(img/increaseYourGlobalPersistance/Repeat\ Grid\ 10.png);
+  width: 100%;
+  height: 400px;
+}
+.PS1{
+  padding-left: 400px;
+}
+.PSB{
+   padding-left: 400px;
+}
+.partneringTitle{
+  padding-top: 100px;
+  color: #f31268;
+}
+.partneringTitle3{
+  padding-top: 200px;
+  color: #f31268;
+}
+/* partner request */
+.partnerRequestback{
+  background-image: url(img/increaseYourGlobalPersistance/Repeat\ Grid\ 9.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+
+/* partner request */
+
+.main-buttonpresence{
+  padding-left: 500px;
+}
+/* boxes starts */
+.backroundboxesfull{
+  margin: 50px 50px;
+}
+.backgroundboxesimg{
+  background-image: url(img/increaseYourGlobalPersistance/Rectangle\ 18.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  padding: 100px 100px;
+}
+
+.backgroundboxesimg1{
+  background-image: url(img/increaseYourGlobalPersistance/Path\ 15.png);
+  padding: 100px 100px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.boxtext{
+  color: white;
+}
+.boxtext1{
+  color: white;
+}
+
+
+/* boxes end */
+
+
+/************* increase your persistance end***************/
+
+/* Our History Start  */
+.OurHistory{
+  background-color: #eef5efdc;
+}
+.historyText{
+  background: white;
+    padding: 16px;
+    margin: 8px;
+    width: 1300px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+/* Our History Ends */
+/* ********Our Story page end****************  */
+
+/* ***************Our stroy and press contact page start************** */
+
+.storyContact{
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-bottom: 150px;
+  width: 400px; 
+}
+.StroyContactTitle{
+  text-align: left;
+  color: #fa0a5a;
+  font-weight: bold;
+}
+/* only text start */
+.onlytext{
+  background-image: url(/img/storyContact/Path\ 12.png);
+  
+}
+.planText{
+  width: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 00px;
+}
+.teamphoto{
+  width: 100%;
+}
+/* only text end */
+
+/* Featured News */
+
+.featuredPhoto{
+  width: 100%;
+ padding-top: 30px;
+}
+
+.featuredText{
+  padding-top: 70px;
+}
+.featuredText1{
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.featuredText2{
+  padding-top: 70px;
+  padding-bottom: 34px;
+}
+.featuredText3{
+  padding-top: 60px;
+}
+.featuredText4{
+  padding-top: 140px;
+  padding-bottom: 20px;
+}
+.featuredText5{
+  padding-top: 105px;
+}
+.ourValueparts1{
+  color: black;
+  
+  text-align: left;
+  padding: 30px 10px;
+  background-color: #fffefe;
+  width: 300px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.ourValueparts1:hover{
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* Featured News */
+
+
+/* awards we have own start */
+.ownPhotos{
+  width: 100%;
+  padding-left: 300px;
+}
+.storyContactTitle{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f31268;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-top: 50px;
+}
+.storyContactTitle1{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+/* awards we have own start */
+
+/* Additional coverage start */
+.additionalText{
+  padding-left: 100px;
+  line-height: 40px;
+}
+/* Additional coverage end*/
+
+/* ***************Our stroy and press contact page end ************** */
+/* ***************Help Your Students 
+Study Abroad page staart************** */
+.Helpstudentstudi-back{
+  background-image: url(img/HelpyourstudentStudyaborad/Repeat_Grid1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px;
+}
+/* how applyboard work start*/
+.HowApplyBoardWOrk-back{
+  background-image: url(img/HelpyourstudentStudyaborad/Repeat\ Grid\ 4.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px;
+}
+.HowApplyBoardWOrk-title{
+  color:#fa0a5a;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.HowApplyBoardWOrk-pera{
+  color:#fa0a5a;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 900px;
+}
+/* how applyboard work end*/
+.coverageText{
+  font-weight: normal;
+  color: black;
+}
+.brandButton{
+  padding-left: 500px;
+  padding-bottom: 20px;
+}
+.quoteImg{
+  background-image: url(img/Help\ Your\ S);
+}
+.corsur{
+  color: #f31268;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: 40px;
+  background-color: #fffefe;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.corsur:hover{
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.partnerSchoolBack{
+  background-image: url(img/HelpyourstudentStudyaborad/Repeat\ Grid\ 2.png);
+  width: 100%;
+  height: 400px;
+}
+
+.becomePartnertext{
+  padding-left: 200px;
+}
+.becomePartnertext1{
+  padding-left: 150px;
+}
+
+.joinGlobalBack{
+  background-image: url(img/HelpyourstudentStudyaborad/Path\ 12.png);
+  width: 100%;
+  height: 400px;
+}
+/* work with applyboard start */
+.workWithApplyBoard-back{
+  background-image: url(img/HelpyourstudentStudyaborad/Repeat\ Grid\ 3.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px;
+}
+.workWithApplyBoard-title{
+  font-weight: bold;
+  padding-top: 150px;
+}
+.workWithApplyBoard-pera{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.ok{
+  color:#fa0a5a;
+  padding-left: 800px;
+}
+/* work with applyboard end */
+
+
+/* ***************Help Your Students 
+Study Abroad page end ************** */
+
+/* **********Apply board terms page start************** */
+.termsTittle{
+  padding-top: 200px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  font-weight: bold;
+  color: #f31268;
+}
+.termsNumber{
+  color: #f31268;
+  font-weight: bold;
+  font-size: 20px;
+}
+.allTermText{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.policyTittle{
+  padding-top: 200px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  font-weight: bold;
+  color: #f31268;
+}
+/* **********Apply board terms page end ************** */
+/* **********Apply board Fees Start ************** */
+
+.termsTittle1{
+  padding-bottom: 40px;
+  font-weight: bold;
+  color: #f31268;
+}
+
+/* **********Apply board Fees End ************** */
+
+/* **********Apply board Blog Start ************** */
+.ourvaluepartsBlog{
+  color: #fffefe;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #F75842;
+  width: 300px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.ourvaluepartsBlog:hover{
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.coverageTextBlog{
+  color: white;
+  text-align: center;
+}
+.blogDate{
+  text-align: left;
+  font-size: 20px; 
+  
+}
+/* **********Apply board Blog End  ************** */
+
+  /********** Flow us on instargram start   ***********/
+.instargramimg{
+  padding-top: 100px;
+}
+
+  /********** Flow us on instargram start   ***********/
+
+  /********** Student Success Stories start   ***********/
+
+.SuccessStoriessection{
+  padding-left: 150px;
+}
+.ourValuepartsSstories{
+  padding-bottom: 50px;
+}
+.ourValuepartssuccessbox{
+    color: #f31268 ;
+    font-weight: bold;
+    text-align: left;
+    padding: 30px 30px;
+    background-color: #fffefe;
+    width: 80%;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .ourValuepartssuccessbox:hover{
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+/********** Student Success Stories End   ***********/
+
+/********** where we will be upcoming weabiner start   ***********/
+
+.upcomingmainimg img{
+  width: 100%;
+}
+.upcomingwebinars{
+  color: #f31268 ;
+ 
+  font-weight: bold;
+  text-align: left;
+  padding: 30px 30px;
+  background-color:#FEEBEC;
+  width: 50%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.upcomingwebinars:hover{
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.whebinerdate{
+  color: #f31268 ;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #fffefe;
+  width: 20%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+.whebinerdate:hover{
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.registrationdate{
+  color: #f31268 ;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #fffefe;
+  width: 60%;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+.registrationdate:hover{
+  box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/********** where we will be upcoming weabiner End   ***********/
+
+/********** how we work with recruitment partners start   ***********/
+.howWeWorkImg{
+  background-image: url(img/howweworkwithrecruitmentparners/Path\ 12.png);
+  width: 100%;
+}
+.recrutementStroyContactTitle{
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+.recruitementText{
+  color: white;
+}
+.recruitementbox{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 70%;
+}
+.recruitmentTitle{
+  color: #f31268;
+}
+/********** how we work with recruitment partners End  ***********/
+/********** Help us to educate the world Start  ***********/
+/* main start */
+.helpUsEducateWorld-back{
+  background-image: url(img/Helpuseducatetheworld/\/Repeat\ Grid\ 1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 200px;
+}
+/* main end */
+
+/* our people start */
+/* .Ourpeopleback{
+  background-image: url(img/Helpuseducatetheworld/Rectangle\ 66.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 200px;
+} */
+.Ourpeopleback{
+  background-image: url(img/Helpuseducatetheworld/Rectangle\ 66.png);
+    padding: 100px 100px;
+  text-align: center;  
+}
+.Ourpeopleboxtext{
+  color: black;
+}
+.Ourpeopleboxtext1{
+  color: #f31268;
+  font-weight: bold;
+}
+/* our people start */
+/********** Help us to educate the world End  ***********/
+
+/* *****************Applyboard Team start*****************/
+
+
+
+
+
+
+/* *****************Applyboard Team End *****************/
+
+/*********************** Apply to study abroad at your dream school start********************/
+/* Main start */
+.studyDreamSchoolBack{
+  background-image: url(img/studyAbroadDreamSchool/Repeat\ Grid\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+.studyDreamSchooltittle{
+  color: white;
+  font-size: bold;
+  padding-top: 150px;
+  padding-left: 100px;
+}
+.studyDreamSchooltext{
+  color: white;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+.studyDreamSchoolbtn{
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+/* Main End */
+
+/* about start */
+.Apara{
+  padding-bottom: 30px;
+}
+
+/* about end */
+/* find the right program and school start */
+.findRightProgram{
+  margin: 50px 0px;
+  background-color: #FCC2BA;
+}
+/* find the right program and school end */
+
+/* Read more students success story start*/
+.fullSection{
+  padding-left: 50px;
+}
+.successBack{
+  background-image: url(img/studyAbroadDreamSchool/Repeat\ Grid\ 2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+ 
+}
+.successBack1{
+  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-left: 120px;
+  padding-right: 100px;
+}
+/* acceptance and admission start */
+.acceptancePara{
+  text-align: center;
+}
+
+.bestProgramBack{
+  background-image: url(img/studyAbroadDreamSchool/Repeat\ Grid\ 5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+.bestProgramtitle{
+  color: white;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.bestProgrambtn{
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+/*********************** Apply to study abroad at your dream school end********************/
+
+/******************************** Company Information Part Css start****************************/
+#company_informations{
+  background: url(./img/CompanyInformation/Rectangle_105.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.company_deatils{
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+}
+.company_deatils .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background: transparent;
+  color: #FE7769;
+  border-bottom: 1px solid #FE7769;
+  border-radius: 0;
+}
+.nav-pills .nav-link{
+  display: inline;
+  padding: 0;
+  margin-right: 12px;
+  color: #FE7769;
+  font-size: 16px;
+  font-weight: 500;
+}
+.company_deatils label {
+  color: #FE7769;
+  font-size: 16px;
+  font-weight: 500;
+}
+.company_deatils .form-control{
+  border-radius: 0;
+  border: 1px solid #FE7769;
+  margin-bottom: 30px;
+}
+textarea.form-control{
+  border-radius: 15px!important;
+}
+/******************************** Company Information Part Css end****************************/
+
+/*******************************************Login Part Css************************ */
+#login{
+  margin-top: 80px;
+}
+.login-form{
+  background-color: rgb(251, 59, 135,0.2);
+  padding: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+.login-form .form-group{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.login-form .form-check-label{
+  color: #FE7769;
+  font-size: 14px;
+  font-weight: 500;
+}
+.login-form h2{
+  color: #FE7769;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.login-form p{
+  color:#FE7769;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 50px;
+}
+.fb{
+  background: #fff;
+  padding: 10px 15px;
+  box-shadow: 5px 10px 11px rgba(0, 0, 0, 0.16);
+}
+.fb span{
+  margin-left: 10px;
+  color: #FE7769;
+}
+.login-form .input-group-text{
+  background: #fff;
+  border-radius: 0;
+  border: none;
+}
+.login-form .form-control{
+  border-radius: 0;
+  border: none;
+}
+.user{
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.16);
+}
+#login-sub{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.sub-content{
+  background-color: rgb(251, 59, 135,0.1);
+  padding: 30px;
+}
+.sub-content h6{
+  font-size: 16px;
+  color: #9F9898;
+  font-weight: 400;
+  border-bottom: 1px solid #9F9898;
+  display: inline;
+}
+.sub-content p{
+  color: #9F9898;
+  font-size: 14px;
+  font-weight: 400;
+}
+.sub-content a{
+  color: #FE7769;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #FE7769;
+  border-radius: 25px;
+  padding: 5px 25px;
+  text-decoration: none;
+}
+/*******************************************Login Part Css End************************ */
+
+#partnership-form{
+  background: url(./img/increaseYourGlobalPersistance/Path_14.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 30px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+.partnership-form-details h6{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.partnership-form-details h5{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.partnership-form-details p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 0 70px;
+}
+.partnership-form-details label{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.partnership-form-details .form-control{
+  border: 0;
+  border-radius: 0;
+}
+.partnership-form-details .form-control:focus{
+  box-shadow: none;
+}
+.partnership-form-details textarea.form-control{
+  border-radius: 0!important;
+  border: 0;
+}
+.partnership-form-details span{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive design */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .jumbotron {
+      background: url('../images/jumbotron_1200.jpg') no-repeat;
+      height: 450px;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #logo-img {
+      background: url('../images/restaurant-logo_medium.png') no-repeat;
+      width: 100px;
+      height: 100px;
+      margin: 5px 5px 5px 0;
+    }
+  
+    /* Home Page */
+    .jumbotron {
+      background: url('../images/jumbotron_992.jpg') no-repeat;
+      height: 558px;
+    }
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    .jumbotron {
+      background: url('../images/jumbotron_768.jpg') no-repeat;
+      height: 432px;
+    }
+  }
+  
+  /********** Extra small devices only **********/
+  @media (min-width: 480px) and (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 6vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand p { /* Kosher cert */
+      font-size: .6em;
+      margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star-K */
+      height: 20px;
+    }
+    #menu-tile, #specials-tile{
+      width: 360px;
+      margin: 10px auto 15px auto; 
+    }
+        /******************************Footer**********************************/
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0;
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+     /*********************************Footer*************************************/
+  
+  /*SINGLE MENU TILE PAGE*/
+  .menu-item-photo{
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price{
+    text-align: center;
+  }
+  .menu-item-description{
+    text-align: center;
+  }
