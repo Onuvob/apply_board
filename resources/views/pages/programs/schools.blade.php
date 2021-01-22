@@ -3,13 +3,7 @@
 @section('content')
 
 <!-- Main Start -->
-@if (Session::has('success'))
-    <div class="alert alert-success">
-        <ul>
-            <li>{!! Session::get('success') !!}</li>
-        </ul>
-    </div>
-@endif
+
 
 <section class="students-site">
     <div class="container-fluid">
@@ -35,6 +29,13 @@
     </section>
 <!-- Main End -->
 <div class="container">
+  @if (Session::has('success'))
+    <div class="alert alert-success">
+        <ul>
+            <li>{!! Session::get('success') !!}</li>
+        </ul>
+    </div>
+@endif
     <div class="row">
       @foreach ($schoolPrograms as $schoolProgram)
         <div class="col-sm-4">
@@ -42,11 +43,17 @@
             <div class="card-body">
               <h5 class="card-title">{{ $schoolProgram->title }}</h5>
               <p class="card-text">{{ $schoolProgram->description }}</p>
+              @auth
               <form method="post" action="{{ route('school.program.apply') }}">
                 @csrf
                 <input name="school" type="text" value="{{ $schoolProgram->id }}" hidden>
                 <button type="submit" class="btn btn-primary">Apply</button>
               </form>
+              
+              @endauth
+              @guest
+                <a href="{{ route('login') }}" class="text-decoration-none btn btn-primary">Login in to Apply</a>
+              @endguest
               
             </div>
           </div>

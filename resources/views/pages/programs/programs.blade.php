@@ -45,9 +45,9 @@
             
                       </p>
           <div class="main-button2">    
-            <button type="button" class="btn button">
+            <a href="{{ route('school.programs') }}" class="text-decoration-none btn button">
               Explore High Schools
-                </button>
+            </a>
             </div>
         </div>
       </div>
@@ -63,9 +63,9 @@
             diploma, an advanced diploma, 
             or a bachelor’s degree          </p>
           <div class="main-button2">    
-            <button type="button" class="btn button">
+            <a href="{{ route('college.programs') }}" class="text-decoration-none btn button">
               Undergraduate Programs 
-                </button>
+            </a>
             </div>
         </div>
       </div>
@@ -81,9 +81,9 @@
             a graduate certificate, graduate 
             diploma, or master’s degree.          </p>
           <div class="main-button2">    
-            <button type="button" class="btn button">
+            <a href="{{ route('university.programs') }}" class="text-decoration-none btn button">
               Post-Graduate Programs
-                </button>
+            </a>
             </div>
         </div>
       </div>

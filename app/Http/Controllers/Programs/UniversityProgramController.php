@@ -35,6 +35,7 @@ class UniversityProgramController extends Controller
     public function store(Request $request)
     {
         $appliedProgram = new AppliedProgram([
+            'user_id' => auth()->id(),
             'university_program_id' => $request->get('university'),
         ]);
 

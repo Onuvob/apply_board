@@ -15,9 +15,11 @@ class CreateAppliedProgramsTable extends Migration
     {
         Schema::create('applied_programs', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('school_program_id')->nullable();
             $table->unsignedBigInteger('college_program_id')->nullable();
             $table->unsignedBigInteger('university_program_id')->nullable();
+            $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('school_program_id')->references('id')->on('school_programs');
             $table->foreign('college_program_id')->references('id')->on('college_programs');
             $table->foreign('university_program_id')->references('id')->on('university_programs');

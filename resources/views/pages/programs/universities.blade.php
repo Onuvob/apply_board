@@ -42,12 +42,17 @@
             <div class="card-body">
               <h5 class="card-title">{{ $universityProgram->title }}</h5>
               <p class="card-text">{{ $universityProgram->description }}</p>
+              @auth
               <form method="post" action="{{ route('university.program.apply') }}">
                 @csrf
                 <input name="university" type="text" value="{{ $universityProgram->id }}" hidden>
                 <button type="submit" class="btn btn-primary">Apply</button>
               </form>
+              @endauth
               
+              @guest
+                <a href="{{ route('login') }}" class="text-decoration-none btn btn-primary">Login in to Apply</a>
+              @endguest
             </div>
           </div>
         </div>
