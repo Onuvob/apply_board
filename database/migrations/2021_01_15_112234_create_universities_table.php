@@ -15,6 +15,9 @@ class CreateUniversitiesTable extends Migration
     {
         Schema::create('universities', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_detail_id');
+            $table->string('document');
+            $table->foreign('user_detail_id')->references('id')->on('user_details');
             $table->timestamps();
         });
     }

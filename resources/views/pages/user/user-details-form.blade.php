@@ -21,36 +21,36 @@
     </div> --}}
 
     <div>
-        <form method="post" action="{{ route('user-details-submit') }}">
+        <form method="post" action="{{ route('user-details-submit') }}" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
                 <label for="school">School</label>
-                <input name="schoolname" type="text" class="form-control" id="school" placeholder="School Name">
+                <input name="school_name" type="text" class="form-control" id="school" placeholder="School Name">
             </div>
 
             <div class="form-group">
-                <label for="schooldocuments">School Documents</label>
-                <input type="file" id="schooldocuments" name="schooldocuments[]" multiple>
+                <label for="school_document">School Documents</label>
+                <input type="file" id="school_document" name="school_document">
             </div>
 
             <div class="form-group">
                 <label for="college">College</label>
-                <input name="collegename" type="text" class="form-control" id="college" placeholder="College Name">
+                <input name="college_name" type="text" class="form-control" id="college" placeholder="College Name">
             </div>
 
             <div class="form-group">
                 <label for="collegedocuments">College Documents</label>
-                <input type="file" id="collegedocuments" name="collegedocuments[]" multiple>
+                <input type="file" id="collegedocuments" name="college_document">
             </div>
 
             <div class="form-group">
                 <label for="university">University</label>
-                <input name="universityname" type="text" class="form-control" id="university" placeholder="University Name">
+                <input name="university_name" type="text" class="form-control" id="university" placeholder="University Name">
             </div>
 
             <div class="form-group">
                 <label for="universitydocuments">University Documents</label>
-                <input type="file" id="universitydocuments" name="universitydocuments[]" multiple>
+                <input type="file" id="universitydocuments" name="university_document">
             </div>
             
             <button type="submit" class="btn btn-primary">Submit</button>

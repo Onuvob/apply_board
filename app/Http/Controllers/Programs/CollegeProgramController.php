@@ -34,16 +34,27 @@ class CollegeProgramController extends Controller
      */
     public function store(Request $request)
     {
-        $appliedProgram = new AppliedProgram([
-            'user_id' => auth()->id(),
-            'college_program_id' => $request->get('college'),
-        ]);
-
-        $appliedProgram->save();
+        if (auth()->user()->userDetail)
+        {
+            if (auth()->user()->userDetail->collegeDocuments->count())
+            {
+                $appliedProgram = new AppliedProgram([
+                    'user_id' => auth()->id(),
+                    'college_program_id' => $request->get('college'),
+                ]);
+        
+                $appliedProgram->save();
+        
+                $collegePrograms = CollegeProgram::all();
+        
+                return view('pages.programs.colleges', compact('collegePrograms'))->with('success', 'Applied Succesfully!');
+            }
+        }
 
         $collegePrograms = CollegeProgram::all();
-
-        return view('pages.programs.colleges', compact('collegePrograms'))->with('success', 'Applied Succesfully!');
+        
+        return view('pages.programs.colleges', compact('collegePrograms'))->with('error', 'Please Update your College Details!');
+        
     }
 
     /**

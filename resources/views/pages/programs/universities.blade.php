@@ -3,12 +3,31 @@
 @section('content')
 
 <!-- Main Start -->
-@if (Session::has('success'))
-    <div class="alert alert-success">
-        <ul>
-            <li>{!! Session::get('success') !!}</li>
-        </ul>
+@if( session('success') )
+
+  <div class="row">
+
+      <div class="mx-auto col-sm-8 alert alert-success">
+          {{ session('success')}}
+      </div>
+      
+  </div>
+
+
+@endif
+
+
+@if( session('error') )
+
+<div class="row">
+
+    <div class="mx-auto col-sm-8 alert alert-danger">
+        {{ session('error')}}
     </div>
+    
+</div>
+
+
 @endif
 
 <section class="students-site">

@@ -29,14 +29,12 @@
     </section>
 <!-- Main End -->
 <div class="container">
-  @if (Session::has('success'))
-    <div class="alert alert-success">
-        <ul>
-            <li>{!! Session::get('success') !!}</li>
-        </ul>
-    </div>
-@endif
+
+      
+  
+  
     <div class="row">
+      
       @foreach ($schoolPrograms as $schoolProgram)
         <div class="col-sm-4">
           <div class="card">
@@ -58,7 +56,35 @@
             </div>
           </div>
         </div>
-      @endforeach    
+      @endforeach   
+      @if( session('success') )
+
+  <div class="row">
+
+      <div class="mx-auto col-sm-8 alert alert-success">
+          {{ session('success')}}
+      </div>
+      
+  </div>
+
+
+@endif
+
+
+@if( session('error') )
+
+<div class="row">
+
+    <div class="mx-auto col-sm-8 alert alert-danger">
+        {{ session('error')}}
+    </div>
+    
+</div>
+
+
+@endif
+  
+
     </div>
 </div>
 

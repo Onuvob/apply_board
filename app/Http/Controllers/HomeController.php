@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User\AppliedProgram;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +24,13 @@ class HomeController extends Controller
      */
     public function index()
     {
+        if(auth()->user()->is_admin)
+        {
+            $appliedPrograms = AppliedProgram::all();
+            
+            return view('admin', compact('appliedPrograms'));
+        }
+
         return view('home');
     }
 }

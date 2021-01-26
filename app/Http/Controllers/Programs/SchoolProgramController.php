@@ -34,16 +34,26 @@ class SchoolProgramController extends Controller
      */
     public function store(Request $request)
     {
-        $appliedProgram = new AppliedProgram([
-            'user_id' => auth()->id(),
-            'school_program_id' => $request->get('school'),
-        ]);
+        if (auth()->user()->userDetail) {
+            if (auth()->user()->userDetail->schoolDocuments->isNotEmpty())
+            {
+                
+                $appliedProgram = new AppliedProgram([
+                    'user_id' => auth()->id(),
+                    'school_program_id' => $request->get('school'),
+                ]);
 
-        $appliedProgram->save();
+                $appliedProgram->save();
+
+                $schoolPrograms = SchoolProgram::all();
+
+                return view('pages.programs.schools', compact('schoolPrograms'))->with('success', 'Applied Succesfully!');
+            }
+        }
 
         $schoolPrograms = SchoolProgram::all();
 
-        return view('pages.programs.schools', compact('schoolPrograms'))->with('success', 'Applied Succesfully!');   
+        return view('pages.programs.schools', compact('schoolPrograms'))->with('error', 'Please Update your School Details!');
     }
 
     /**
